@@ -1,0 +1,14 @@
+Auto usate
+
+id - intero  - smallint -  primary_key - auto_increment
+modello - stringa - varchar(30) not null
+marca - stringa - varchar(30) not null
+num_km - float - float(5,1) - not null
+anno_di_produzione - year- not null
+cilindrata intero - smallint -  not null
+alimentazione - stringa  - varchar(50) not null
+cambio - stringa - varchar(15) - not null
+prezzo - float - float(9,2) - not null - default(1)
+colore - stringa - varchar(50) not null
+condizioni - stringa - varchar(255) not null
+disponibilità - booleano - boolean(tinyint) - not null - default(ture)
